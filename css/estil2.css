@@ -1,0 +1,20 @@
+#drag {
+  height: 100px;
+  width: 200px;
+  border: solid 1px;
+  background-color: yellow;
+  display: inline-block;
+}
+#drop {
+  height: 100px;
+  width: 200px;
+  border: solid 1px;
+  background-color: white;
+  display: inline-block;
+}
+section {
+  justify-content: space-around;
+}
+.draggable.dragging {
+  opacity: 0.5;
+}
