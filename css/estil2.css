@@ -15,6 +15,6 @@
 section {
   justify-content: space-around;
 }
-.draggable.dragging {
+/*.draggable.dragging {
   opacity: 0.5;
-}
+}*/

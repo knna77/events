@@ -7,20 +7,15 @@
   <body>
     <h1>Events</h1>
     <h2>Pràctica 3</h2>
-    <div>
-      Pinta de rojo
-      <button>Pinta de verde</button>
-    </div>
-    <script>
-      let boton = document.querySelector('button');
-      let div = document.querySelector('div');
-      boton.addEventListener('click', (ev) => {
-        document.body.style.backgroundColor = 'green';
-        ev.stopPropagation();
-      });
-      div.addEventListener('click', (ev) => {
-        document.body.style.backgroundColor = 'red';
-      });
-    </script>
+    <form>
+      Correo electrónico:<br />
+      <input type="name" id="mail" /><br />
+      Contraseña<br />
+      <input type="password" id="pass" /><br />
+      <input type="button" value="Comprobar" />
+    </form>
+    <div id="mensaje1"></div>
+    <div id="mensaje2"></div>
+    <script type="text/javascript" src="js/03ex.js"></script>
   </body>
 </html>
